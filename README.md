@@ -1,4 +1,4 @@
-def print_large_digit(digit):
+    def print_large_digit(digit):
     digits = [
         [
             "  ***  ",
@@ -99,7 +99,7 @@ def print_large_digit(digit):
         print()
 
 
-def main():
+    def main():
     number = input("Введіть ціле число (у форматі XXX): ")
 
     if number.isdigit() and len(number) == 3:
@@ -108,5 +108,5 @@ def main():
         print("Неправильний формат введеного числа, введіть ціле число у форматі XXX.")
 
 
-if __name__ == "__main__":
+    if __name__ == "__main__":
     main()
